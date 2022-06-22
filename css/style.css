@@ -2,7 +2,8 @@
 margin:0;
 padding:0;
 box-sizing: border-box;
-font-size:18px;
+font-size:15px;
+
 }
 
 .menu ul {
@@ -11,6 +12,7 @@ list-style: none;
 background-color: red;
 height:40px;
 justify-content: center;
+
 }
 .menu li a {
 margin:15px;
@@ -18,7 +20,7 @@ text-decoration:none;
 color:#fff;
 }
 .menu li a:hover{
-color:#111;	
+color:#111;
 }
 .titulo {
 margin:10px;
@@ -31,7 +33,7 @@ grid-row:1;
 grid-gap:120px;
 margin-top: 20px;
 }
-@media screen and (max-width:320px){
+@media screen and (max-width:330px){
 
 .menu li a:hover{
 color:#111;	
@@ -54,8 +56,6 @@ width:130px;
 height:140px;
 margin:5px;
 }
-
-
 .grid{
 display: grid;
 grid-template-columns:repeat(2, 15px);
